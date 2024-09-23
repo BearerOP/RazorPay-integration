@@ -6,7 +6,7 @@ connectDB();
 
 export const instance = new Razorpay({
   key_id: process.env.RAZORPAY_API_KEY,
-  key_secret: process.env.RAZORPAY_APT_SECRET,
+  key_secret: process.env.RAZORPAY_API_SECRET,
 });
 
 app.listen(process.env.PORT, () =>
